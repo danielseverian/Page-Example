@@ -1,0 +1,310 @@
+:root {
+    --text-color: #667085;
+    --header-color: #8E2424;
+    --cor-titulo: #101828;
+
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    
+  }
+
+  nav img {
+    margin-left: 40px;
+  }
+
+  .links {
+    margin-right: 250px;
+  }
+  
+  .links a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin-right: 2rem;
+    font-size: 0.9rem;
+    
+  }
+  
+  button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    background: none;
+    color: var(--text-color);
+    font-size: 0.9rem;
+  }
+  
+  button#signUp {
+    background-color: #8E2424;
+    color: #FFF;
+  }
+
+  header {
+     padding: 5rem;
+    
+  }
+  #sub-header {
+    color: #8E2424;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #container {
+    text-align: center;
+    padding: 2rem;
+    font-size: 22px;
+  }
+
+  #content {
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    color: #667085;
+  }
+
+  .metrics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 1rem;
+    margin: 0 auto;
+    margin-bottom: 80px;
+  }
+  .metric-1 h2 {
+    color: #8E2424;
+    font-size: 50px;
+    padding-bottom: 10px;
+  }
+
+  .metric-1 span {
+    font-weight: bold;
+    font-size: 17px;
+   
+  }
+
+  .metric-1 p {
+    padding-top: 15px;
+    font-size: 0.9rem;
+    color: #667085;
+  }
+
+  .vacation {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .vaca-img {
+    width: 100%; /* Define a largura do contêiner */
+            height: 350px; /* Define a altura do contêiner */
+            overflow: hidden; /* Esconde a parte da imagem que sai do contêiner */
+            margin-top: 40px;
+            margin-bottom: 50px;   
+            
+  }
+
+  .vaca-img img {
+    width: 100%; /* Faz com que a imagem ocupe toda a largura do contêiner */
+            height: 120%; /* Mantém a proporção da imagem */
+            object-fit: cover;/* Corta a imagem para preencher o contêiner */
+            object-position: center;
+            margin: 0;
+  }
+
+  .vaca-container {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 10px;
+  }
+
+  .vaca-container span {
+    color: #8E2424;
+    background-color: #e9e9e9;
+    border-radius: 20px;
+    border: 5px solid #e9e9e9;
+    font-size: 0.9rem;
+  }
+
+  .vaca-container h3{
+    font-size: 32px;
+    padding: 20px;
+  }
+
+.vaca-container p {
+  color: #667085;
+  font-size: 0.9rem;
+}
+
+.design-container {
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: left;
+}
+
+.design-container h4 {
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.offer1 {
+  border: 1px solid #e9e9e9;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 25px;
+  width: 100%;
+}
+
+.offer1-title {
+  padding-bottom: 20px;
+}
+
+.offer-content {
+  color: #667085;
+  font-size: 0.9rem;
+}
+
+.offer-content span {
+  padding-right: 20px;
+}
+
+.dev-container {
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.dev-container h4 {
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-top: 35px;
+}
+
+.health-container {
+  background-color: #fcf8f5;
+  margin: 50px;
+  margin-top: 70px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+main {
+  margin-bottom: 100px;
+}
+.colab {
+  color: #8E2424;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.colab-health {
+   font-size: 32px;
+   font-weight: 500;
+   margin-bottom: 40px;
+   padding-left: 100px;
+   padding-right: 100px;
+}
+
+.colab-data-img {
+  width: 60px; /* Define a largura do contêiner */
+  height: 60px; /* Define a altura do contêiner */
+  overflow: hidden; /* Esconde a parte da imagem que sai do contêiner */
+  margin-top: 40px;
+  margin-bottom: 50px;   
+  border-radius: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+   
+}
+
+.colab-data-img img{
+  width: 100%; /* Faz com que a imagem ocupe toda a largura do contêiner */
+            height: 100%; /* Mantém a proporção da imagem */
+            object-fit: cover;/* Corta a imagem para preencher o contêiner */
+            object-position: center;
+            
+          
+}
+
+.colab-name {
+ padding-top: 0px;
+ font-weight: 500;
+}
+
+.colab-data p{
+  margin-top: 5px;
+  color: #667085;
+  font-size: 0.9rem;
+  margin-bottom: 50px;
+}
+
+footer {
+  text-align: center;
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  
+}
+.footer h4 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.footer-div {
+  margin-top: 30px;
+}
+
+.footer-div span {
+  color: #667085;
+  font-size: 18px;
+  
+}
+
+.footer-div input {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 11px;
+  width: 25%;
+}
+
+#click-btn {
+  background-color: #8E2424;
+  border-radius: 7px;
+  color: #FFF;
+  font-weight: 300;
+}
+
+.footer p{
+  margin-bottom: 70px;
+  color: #8c93a1;
+  font-size: 0.9rem;
+}
